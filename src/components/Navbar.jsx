@@ -1,7 +1,7 @@
 import { Menu } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link,NavLink, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
    const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="font-bold text-xl text-take_care_primary">
                <Link to="/">
                   <img
-                     src="/images/Logo.png" // Update this to your actual logo file name
+                     src="/images/logo.jpg" // Update this to your actual logo file name
                      alt="with you Logo"
                      className="h-14" // Adjust height as needed
                   />
